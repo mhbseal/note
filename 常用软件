@@ -1,13 +1,8 @@
-[homebrew](https://brew.sh/index_zh-cn.html) mac软件包管理工具
-iterm2 + OhMyZsh 终端
-navicat premium 数据库GUI工具
-charles 抓包工具
-[webstorm](http://www.jetbrains.com/webstorm/) js编辑器
-[pxcook](http://www.fancynode.com.cn/pxcook/) 设计&开发协作工具
-[robomongo](https://robomongo.org) mongodb数据库GUI工具
-[postman](https://www.getpostman.com/) API开发工具
-[shadowsocks](https://github.com/shadowsocks) GFW工具
+# Node Version Manager [![Build Status](https://travis-ci.org/creationix/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.33.8-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
 - [Installation](#installation)
   - [Install script](#install-script)
@@ -16,3 +11,23 @@ charles 抓包工具
   - [Git install](#git-install)
   - [Manual Install](#manual-install)
   - [Manual upgrade](#manual-upgrade)
+- [Usage](#usage)
+  - [Long-term support](#long-term-support)
+  - [Migrating global packages while installing](#migrating-global-packages-while-installing)
+  - [Default global packages from file while installing](#default-global-packages-from-file-while-installing)
+  - [io.js](#iojs)
+  - [System version of node](#system-version-of-node)
+  - [Listing versions](#listing-versions)
+  - [.nvmrc](#nvmrc)
+  - [Deeper Shell Integration](#deeper-shell-integration)
+    - [zsh](#zsh)
+      - [Calling `nvm use` automatically in a directory with a `.nvmrc` file](#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file)
+- [License](#license)
+- [Running tests](#running-tests)
+- [Bash completion](#bash-completion)
+  - [Usage](#usage-1)
+- [Compatibility Issues](#compatibility-issues)
+- [Installing nvm on Alpine Linux](#installing-nvm-on-alpine-linux)
+- [Docker for development environment](#docker-for-development-environment)
+- [Problems](#problems)
+- [Mac OS "troubleshooting"](#mac-os-troubleshooting)
