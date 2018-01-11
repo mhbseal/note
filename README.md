@@ -1,2 +1,2 @@
 # note
-1.常用软件
+- [常用软件](https://github.com/mhbseal/note/edit/master/README.md)
